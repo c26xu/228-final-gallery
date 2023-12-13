@@ -18,7 +18,7 @@ Clara Xu
       }
 
       h1 {
-        color:#5E72eb;
+        color: #5E72eb;
       }
 
       #nav {
@@ -51,60 +51,67 @@ Clara Xu
         margin-right: 25px;
       }
 
+
+
+      #toby-sec {
+        text-align: center;
+      }
+
+      #stewie-sec {
+        text-align: center;
+      }
+
+      #both-sec {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+      #toby-sec img {
+        margin: 5px;
+      }
+
+      #stewie-sec img {
+        margin: 5px;
+      }
+
+      #both-sec img {
+        margin: 5px;
+      }
+
+      #survey {
+        border: 2px solid black;
+        padding: 10px;
+        width: 100%;
+      }
+
+      #survey h2 {
+        color: #5E72eb;
+      }
+
+      p a {
+        color: white;
+      }
+
       ul li a {
         color: #000000
       }
-      
+
       li a:hover {
         color: #5E72eb;
       }
-      
-      #toby-sec {
-      	text-align:center;;
-      }
-      
-      #stewie-sec {
-      	text-align:center;;
-      }
-      
-      #both-sec {
-      	text-align:center;;
-      }
-      
-      #toby-sec img {
-      	margin: 5px;
-      }
-      
-      #stewie-sec img {
-      	margin: 5px;
-      }
-      
-      #both-sec img {
-      	margin: 5px;
-      }
-      
-      #both-sec {
-        
-        padding-bottom: 40px;
-      }
-      
-      p a{
-        color: white;
-      }
-      
+
       p a:hover {
         color: yellow;
       }
-      
+
       footer {
-      background-color: #5E72eb;
-      color: #ffffff;
-      text-align: center;
-      padding: 5px; 
-    	}
-      
-      
-      
+        background-color: #5E72eb;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px;
+        margin-top: 40px;
+        width: 100%;
+      }
     </style>
   </head>
 
@@ -120,31 +127,56 @@ Clara Xu
         <li><a href="">GALLERY</a></li>
       </ul>
     </div>
-    
+
     <h1>
       Gallery
     </h1>
-		<div id="toby-sec">
+    <div id="toby-sec">
       <h2>Toby</h2>
       <img src="toby1.JPG" alt="Toby Gallery 1" style="width:250px">
       <img src="toby2.JPG" alt="Toby Gallery 2" style="width:250px">
       <img src="toby3.JPG" alt="Toby Gallery 3" style="width:250px">
     </div>
-    
+
     <div id="stewie-sec">
-      <h2>Stewie</h2>  
+      <h2>Stewie</h2>
       <img src="stewie1.JPG" alt="Stewie Gallery 1" style="width:250px">
       <img src="stewie2.jpg" alt="Stewie Gallery 2" style="width:250px">
       <img src="stewie3.JPG" alt="Stewie Gallery 3" style="width:250px">
     </div>
-    
+
     <div id="both-sec">
-      <h2>Them Together!</h2>  
+      <h2>Them Together!</h2>
       <img src="both1.jpg" alt="Both Gallery 1" style="width:250px">
       <img src="both2.jpg" alt="Both Gallery 2" style="width:250px">
       <img src="both3.jpg" alt="Both Gallery 3" style="width:250px">
     </div>
-    
+
+    <div id="survey">
+      <h2> What is Your Favourite Picture? </h2>
+      <form action="pictures">
+        <input type="radio" id="toby1" name="fav_pic" value="Hawaiian Toby">
+        <label for="Rap"> Hawaiian Toby</label><br>
+        <input type="radio" id="toby2" name="fav_pic" value="Hungry Toby">
+        <label for="Hip-Hop"> Hungry Toby</label><br>
+        <input type="radio" id="toby3" name="fav_pic" value="Long Toby">
+        <label for="Trap"> Long Toby</label><br>
+        <input type="radio" id="stewie1" name="fav_pic" value="Sleepy Stewie">
+        <label for="Pop"> Sleepy Stewie</label><br>
+        <input type="radio" id="stewie2" name="fav_pic" value="Peek-a-boo Stewie">
+        <label for="Indie"> Peek-a-boo Stewie</label><br>
+        <input type="radio" id="stewie3" name="fav_pic" value="Silly Stewie">
+        <label for="Experimental"> Silly Stewie</label><br>
+        <input type="radio" id="both1" name="fav_pic" value="First encounter">
+        <label for="Other"> First encounter</label><br>
+        <input type="radio" id="both2" name="fav_pic" value="Mooncake thief">
+        <label for="Other"> Mooncake thief</label><br>
+        <input type="radio" id="both3" name="fav_pic" value="Snack time">
+        <label for="Other"> Snack time</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
     <footer>
       <p>Contact me: <a href="mailto:c26xu@uwaterloo.ca">c26xu@uwaterloo.ca</a></p>
     </footer>
